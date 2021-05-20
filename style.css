@@ -24,3 +24,13 @@
     width: 50vw;
     height: 5vh;
 }
+
+ul {
+    padding: 0;             /*ul elements have a slight offest*/
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}

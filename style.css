@@ -1,0 +1,26 @@
+#container {
+    border: 3px solid blue;
+    padding: 10px;
+}
+
+#title {
+    width: 60%;
+    height: 30px;
+    border: 1px solid red;
+    margin: auto;
+    text-align: center;
+}
+
+#slider {
+    margin: auto;
+    border: 1px solid red;
+    height: 50vw;
+    width: 70vw;
+}
+
+#buttons {
+    margin: auto;
+    border: 1px solid green;
+    width: 50vw;
+    height: 5vh;
+}

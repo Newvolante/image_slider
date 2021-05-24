@@ -7,7 +7,7 @@ $(function() {
 
     let index = 0;      // control value to make the sliding cyclic
 
-
+    // the interval goes on infinitely and calls automaticSliding()
     function timer() {
         setInterval(function() {
 
@@ -20,6 +20,7 @@ $(function() {
         }, 1000);
     }
 
+    // changes the image shown
     function automaticSliding() {
         if (index < 3) {
             console.log('automaticSliding called...');
@@ -29,10 +30,6 @@ $(function() {
         } else {
             index = 0;
         }
-
-
     }
-
     timer();
-
 });
